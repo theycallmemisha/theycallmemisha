@@ -1,0 +1,136 @@
+<!doctype html> <!--Type of document is HTML-->
+    <html lang="en"> <!--Website language is set to English-->
+        <head>
+            <meta charset="utf-8"> <!--Character Encoding-->
+            <link rel="stylesheet" href="stylesheet.css"> <!--This tag links the HTML page to the CSS stylesheet-->
+            <!--Embedded CSS-->
+            <style>
+                .faqheader
+                {
+                    margin: 0px 0px 0px 20%;
+                    float: left;
+                    padding: 16px;
+                    position: absolute;
+                    opacity: 75%;
+                }
+                .bgfaq
+                {
+                    background-image:url("images/faqbg.jpg");
+                    min-height: 500px;
+                    min-width: 400px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;
+                }
+                div.homep1
+                {
+                    font-weight: bold;
+                    background-color: rgb(204, 213, 226);
+                    min-width: 870px;
+                    min-height: 10px;
+                    max-height: 60px;
+                    float: left;
+                    line-height: 2px;
+                    margin: 0px 12% 0px 21%;
+                }
+                a.button
+                {
+                    color: black;
+                    text-decoration: none;
+                    font-weight: bold;
+                    background-color: white;
+                    min-width: 300px;
+                    min-height: 10px;
+                    max-height: 60px;
+                    float: left;
+                    line-height: 40px;
+                    margin: 5px 12% 0px 40%;
+                    text-align: center;
+                }
+                a:hover.button
+                {
+                    background-color: rgb(180, 180, 180);
+                }
+                .query
+                {
+                    font-size: 13px;
+                    color: black;
+                    font-style: italic;
+                    text-align: center;
+                }
+            </style>
+            <title>Sunninghill Bikes | FAQs </title> <!--Title of the page-->
+        </head>
+        <body>
+            <div class="one"> <!--Main logo of the page-->
+                <a href="index.html">
+                <img src="images/logo.jpg" height="100" alt="logo">
+                </a>
+            </div>
+            <div class="close"></div> <!--Spacer Div-->
+            <br>
+            <div class="black">
+            <ul> <!--Menu-->
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="rental.html">BIKE RENTAL</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                <li><a class="active" href="support.html">SUPPORT</a></li><!--Active-->
+              </ul>
+            </div>
+            <br>
+            <div class="bgfaq"> <!--Header Div-->
+                <img src="images/faqheader.png" height="500" alt="Frequently Asked Question Header" class="faqheader"><!--Header-->
+            </div>
+            <br>
+            <div class="homep1">
+                <h3>⠀WHAT SHOULD I KNOW BEFORE RIDING A BIKE?</h3><!--Paragraph Header 1-->
+            </div>
+            <div class="list"><!--Paragraph 1-->
+                <p class="homep2"> Before riding a bike we strongly recommend a few checks on the components of the bike. <br>
+                    You should at least check tire pressure and wheel integrity, along with a full check of front and rear brakes and chain.
+                </p>
+            </div>
+            <div class="homep1">
+                <h3>⠀DOES BIKE RENTAL PAGE ALLOW DIRECT RENTAL?</h3><!--Paragraph Header 2-->
+            </div>
+            <div class="list"><!--Paragraph 2-->
+                <p class="homep2">Our Bike Rental page allows the user to book a bike for a certain date but no direct rental.
+                    After booking the customer will recieve a confirmation e-mail with the details of the booking, including a unique booking code.
+                    To proceed with the rental, the customer must reach our rental centre based in Sunninhill and provide his booking code to our team.
+                    No payment is required until you confirm your rental at our centre, so if you change your mind there is no additional charge.
+                </p>
+            </div>
+            <div class="homep1">
+                <h3>⠀HOW CAN I CONTACT YOU FOR ASSISTANCE?</h3><!--Paragraph Header 3-->
+            </div>
+            <div class="list"><!--Paragraph 3-->
+                <p class="homep2">If you have any problem using one of our services you can contact us using the <a href="contactus.html" class="none"><u>Contact Us page</u></a> and selecting 'Booking Support' or 'General Query' as query type.
+                A member of our team will contact you in the following 3 working days to provide you assistance.</p>
+            </div>
+            <div style="height: 500px;width: max-content;"></div> <!--Spacer Div-->
+            <div class="footer"> <!--Div for Footer-->
+                <div>
+                    <p class="query"><br><br>If you don't see the answer for your question, feel free to submit your query and we will be very to help to assist you.</p>
+                    <h3><a href="contactus.html" class="button">SUBMIT A QUESTION</a></h3>
+                </div>
+            </div>
+            <div class="newsletter1">
+                <br>
+                <form class="newsletter"> <!--Div for Newsletter Box-->
+                    <p class="contactus">SUBSCRIBE TO OUR NEWSLETTER!</p>
+                    <input type="text" name="E-mail" value="" placeholder="Your E-mail"><!--Input Form for Newsletter Subscription-->
+                    <input type="button" class="contactinput2" name="subscribe" value="SUBSCRIBE">
+                </form>  
+            </div>
+            <div class="footer"> <!--Div for Footer-->
+                <br>
+                <br>
+                <p class="final"><b>SUNNINGHILL BIKES</b></p>
+                <p class="final">Based in Sunninghill</p> 
+                <p class="final">Berskshire, SL5 9NJ</p> 
+                <p class="final">United Kingdom</p>
+                <p class="final">@Copyright 2021</p>  
+            </div>
+        </body>
+    </html>

@@ -1,0 +1,292 @@
+body
+{
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+head
+{
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+div.one
+{
+    float:left;
+    margin: 0px 35% 0px 35%;
+    
+}
+div.space
+{
+    float: left;
+    width: 35%;
+    height: 100px;
+}
+div.space1
+{
+    float: left;
+    width: 40%;
+    height: 100px;
+}
+div.close
+{
+    height: 100px;
+    width: fit-content;
+}
+ul 
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: white;
+}
+li
+{
+        float: left;
+}
+li.t1
+{
+    all: none;
+}
+li a
+{
+    display: block;
+    color: black;
+    padding: 16px 30px 16px 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+li a:hover
+{
+    background-color: rgb(180, 180, 180);
+}
+div.black
+{
+    border-width: 0px 0px 2px 2px;
+    border-color:black;
+    border-style: solid;
+}
+.active
+{
+    background-color: rgb(204, 213, 226);
+}
+div.newsletter1
+{
+    background-color:  white;
+    min-width: 700px;
+    min-height: 130px;
+}
+.newsletter
+{
+    text-align: center;
+}
+div.footer
+{
+    background-color:  rgb(204, 213, 226);
+    min-width: 700px;
+    min-height: 130px;
+}
+input
+{
+    border: none;
+    background-color: rgb(228, 228, 228);
+    height: 30px;
+}
+textarea
+{
+    border: none;
+    background-color:rgb(228, 228, 228) ;
+}
+td
+{
+    padding: 15px;
+}
+table, th, td
+{
+   border: 1px solid black;
+   border-collapse: collapse;
+   min-width: 200px;
+   font-size: 15px;
+   text-align: center;
+}
+form.order
+{
+    height: max-content;
+    width: 560px;
+    float: left;
+    position: absolute;
+    margin: 10px 50% 0px 31%;
+    padding: 16px;
+    background-color: rgb(204, 213, 226);
+}
+div.two
+{
+    height: 169px;
+    width: 40%;
+    float: left;
+}
+div.three
+{
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+h2.contactus
+{
+   text-align: center;
+    font-weight:bolder;
+}
+p.contactus
+{
+   font-weight: bolder;
+}
+.contact
+{
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+}
+.contactinput
+{
+    background-color:rgb(204, 213, 226);
+    color:black;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+}
+.contactinput2
+{
+    background-color:rgb(204, 213, 226);
+    color:black;
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+}
+.bg
+{
+    background-image:url("images/guy1.jpg");
+    min-height: 790px;
+    min-width: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+p.final
+{
+    font-size: 10px;
+    line-height: 2px;
+    text-align: center;
+}
+.button1
+{
+    background-color: white;
+}
+p.mandatory
+{
+    font-size: 10px;
+    color: black;
+    font-style: italic;
+}
+.bg2
+{
+    background-image:url("images/orderimage.jpg");
+    min-height: 650px;
+    min-width: 1000px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position:center;
+}
+.sec
+{
+    background-color:rgb(204, 213, 226);
+    border: 50px solid rgb(204, 213, 226);
+    
+}
+.tec
+{
+    background-color:rgb(204, 213, 226);
+    border: 20px solid rgb(204, 213, 226);
+    min-height: 650px;
+}
+li.secondary
+{
+    padding: 50px 33px 50px 33px;
+    margin: 10px 10% 10px 10%;
+    background-color: white;
+}
+li.secondary2
+{
+    padding: 35px 0px 30px 0px;
+    margin: 10px 10% 10px 10%;
+    background-color: white;
+    text-align: center;
+}
+li.secondary3
+{
+    padding: 42px 16px 41px 16px;
+    margin: 10px 10% 10px 10%;
+    background-color:white;
+    text-align: center;
+}
+li:hover.secondary
+{
+    background-color: rgb(180, 180, 180);
+}
+li:hover.secondary2
+{
+    background-color: rgb(180, 180, 180);
+}
+li:hover.secondary3
+{
+    background-color: rgb(180, 180, 180);
+}
+p.terms
+{
+    font-size: 15px;
+}
+ol
+{
+    font-size: 15px;
+}
+.models
+{
+    background-color: rgb(228, 228, 228) ;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 32px;
+    width: 150px;
+    color: grey;
+}
+.none
+{
+    all: unset;
+    color: blue;
+    
+}
+div.list
+{
+    max-width: 860px;
+    float: left;
+    line-height: 18px;
+    min-width: 500px;
+    margin: 0px 20% 0px 22%;
+    font-size: 15px;
+}
+li.list1
+{
+    float: unset;
+    font-size: 15px;
+}
+p.final1
+{
+    font-style: normal;
+    font-size: small;
+    text-align: center;
+    margin: 1px 35% 1px 35%;
+}
